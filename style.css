@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('temp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+}
+.display h1{
+    font-size: 35px;
+    color: #000;
+}
+.container {
+    width: 480px;
+    margin: 50px auto;
+    background-color: wheat;
+}
+form{
+    padding: 15px;
+}
+h3 {
+    background: #B64B39;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+.inputs{
+    float: left;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+}
+.result label{
+    width: 18%;
+    float: left;
+}
+.result input{
+    width: 82%;
+    border-radius: 10px;
+    color: #B64B39;
+    border-color: #B64B39;
+}
+.value label {
+    width: 36%;
+    float: left;
+}
+.value input {
+    width: 64%;
+}
+.value {
+    margin-bottom: 30px;
+}
+
+.input label{
+    width: 18%;
+    float: left;
+}
+.input{
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+.result {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert{
+    float: right;
+}
+
+button.btn{
+    background-color: #B64B39;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+select{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #B64B39;
+}
